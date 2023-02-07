@@ -1,25 +1,4 @@
-:root{
-  --web-ui-font : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-#root {
-  height: 100vh;
-  width: 100vh;
-  margin: 0px;
-  padding: 0px;
-}
-
-.App {
-  height: 100%;
-  width: 100%;
-}
-
-body {
-  margin: 0px;
-  padding: 0px;
-}
-
-/* .Sidebar {
+.Sidebar {
   height: 100%;
   width: 250px;
   background-color: #a7d7ec;
@@ -56,12 +35,15 @@ body {
 
 .SidebarList .item #title {
   flex: 70%;
-} */
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-} */
+}
 
+.SidebarList .item:hover {
+  cursor: pointer;
+  background-color: #364b53;
+  color:white;
+  transition: 0.1s;
+}
 
+.SidebarList #active {
+  font-weight: bold;
+}
