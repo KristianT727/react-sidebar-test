@@ -3,15 +3,8 @@
 }
 
 #root {
-  height: 100vh;
-  width: 100vh;
-  margin: 0px;
-  padding: 0px;
-}
-
-.App {
-  height: 100%;
-  width: 100%;
+  margin: 0%;
+  padding: 0%;
 }
 
 body {
@@ -19,49 +12,17 @@ body {
   padding: 0px;
 }
 
-/* .Sidebar {
+.App {
+  height: 100vh;
+  width: 100%;
+  background-color: blanchedalmond;
+}
+
+.App #row2 {
   height: 100%;
-  width: 250px;
-  background-color: #a7d7ec;
-}
-
-.SidebarList {
-  height: auto;
   width: 100%;
-  padding: 0;
-}
-
-.SidebarList ul {
-  padding: 0;
-  margin: 0;
-}
-
-.SidebarList .item {
-  width: 100%;
-  height: 50px;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-family: var(--web-ui-font);  
+  flex-direction: row;
 }
-
-.SidebarList .item #icon {
-  flex: 30%;
-  display: grid;
-  place-items: center;
-}
-
-.SidebarList .item #title {
-  flex: 70%;
-} */
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-} */
 
 
