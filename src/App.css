@@ -10,12 +10,12 @@
 body {
   margin: 0px;
   padding: 0px;
+  overflow: auto;
 }
 
 .App {
   height: 100vh;
   width: 100%;
-  background-color: blanchedalmond;
 }
 
 .App #row2 {
@@ -25,4 +25,8 @@ body {
   flex-direction: row;
 }
 
+.App .content{
+  /* margin: 0 25px; */
+  overflow: auto;
+}
 
