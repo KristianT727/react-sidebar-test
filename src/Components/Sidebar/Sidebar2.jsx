@@ -7,6 +7,11 @@ function Sidebar() {
     const navigate = useNavigate();
     return (
         <div className="Sidebar">
+            <div className="logo-container">
+                <div className="logo-wrapper">
+                    <img src={"company-logo.svg"} style={{ width: "80%" }} />
+                </div>
+            </div>
             <div className="SidebarList">
                 <ul>
                     {SidebarData.map((val, key) => {

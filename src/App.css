@@ -1,5 +1,6 @@
 :root{
   --web-ui-font : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --dark-gray : #2c2d3a;
 }
 
 #root {
@@ -11,6 +12,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow: auto;
+  font-family: var(--web-ui-font);
 }
 
 .App {
@@ -26,7 +28,8 @@ body {
 }
 
 .App .content{
-  /* margin: 0 25px; */
+  margin: 0;
+  padding: 0 20px;
   overflow: auto;
 }
 
