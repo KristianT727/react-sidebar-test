@@ -28,8 +28,9 @@ body {
 }
 
 .App .content{
+  width:100%;
   margin: 0;
-  padding: 0 20px;
+  padding: 20px 40px;
   overflow: auto;
 }
 
