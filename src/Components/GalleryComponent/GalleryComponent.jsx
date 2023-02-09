@@ -77,4 +77,5 @@ const GalleryComponent = ({ galleryImages }) => {
         </div>
     );
 };
+
 export default GalleryComponent;

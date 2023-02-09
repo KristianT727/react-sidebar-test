@@ -1,4 +1,4 @@
-import GalleryComponent from "../Components/Gallery/GalleryComponent";
+import GalleryComponent from "../Components/GalleryComponent";
 
 function Gallery() {
     const galleryImages = [
