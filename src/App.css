@@ -1,6 +1,7 @@
 :root{
   --web-ui-font : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   --dark-gray : #2c2d3a;
+  --footer-bg : #202124;
 }
 
 #root {
@@ -17,20 +18,25 @@ body {
 
 .App {
   height: 100vh;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .App #row2 {
   height: 100%;
-  width: 100%;
   display: flex;
   flex-direction: row;
 }
 
-.App .content{
-  width:100%;
+.App .content-wrapper {
   margin: 0;
-  padding: 20px 40px;
+  padding: 0;
+  width: 100%;
   overflow: auto;
 }
 
+.App .content{
+  width: auto;
+  min-height: 100%;
+  margin: 0;
+  padding: 20px 40px;
+}
