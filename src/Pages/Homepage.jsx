@@ -1,11 +1,11 @@
-import CompanyHeader from "../Components/Others/CompanyHeader";
+import { CompanyHeader } from "../Components/Others";
 
-function Homepage() {
+export const Homepage = () => {
     return (
         <>
-            <div className="content-head"></div>
+            <div className="content-head">
+                <CompanyHeader />
+            </div>
         </>
     );
-}
-
-export default Homepage;
+};

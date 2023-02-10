@@ -1,39 +1,35 @@
-import Homepage from "./Pages/Homepage";
-import Articles from "./Pages/Articles";
-import Clients from "./Pages/Clients";
-import Gallery from "./Pages/Gallery";
-import Events from "./Pages/Events";
+import * as Pages from "./Pages";
 
 export const routes = [
     {
         title: "Home",
         link: "/",
-        component: <Homepage />,
+        component: <Pages.Homepage />,
     },
     {
         title: "Home",
         link: "/home",
-        component: <Homepage />,
+        component: <Pages.Homepage />,
     },
     {
         title: "Articles",
         link: "/articles",
-        component: <Articles />,
+        component: <Pages.Articles />,
     },
     {
         title: "Events",
         link: "/events",
-        component: <Events />,
+        component: <Pages.Events />,
     },
     {
         title: "Gallery",
         link: "/gallery",
-        component: <Gallery />,
+        component: <Pages.Gallery />,
     },
     {
         title: "Our Clients",
         link: "/clients",
-        component: <Clients />,
+        component: <Pages.Clients />,
     },
     // {
     //     title: "Login",
@@ -42,7 +38,7 @@ export const routes = [
     {
         title: "Not Found",
         link: "*",
-        component: <Homepage />,
+        component: <Pages.Homepage />,
     },
 ];
 

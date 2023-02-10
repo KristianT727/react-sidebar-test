@@ -1,6 +1,6 @@
 import GalleryComponent from "../Components/GalleryComponent";
 
-function Gallery() {
+export const Gallery = () => {
     const galleryImages = [
         {
             img: "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -27,6 +27,4 @@ function Gallery() {
             <GalleryComponent galleryImages={galleryImages} />
         </div>
     );
-}
-
-export default Gallery;
+};

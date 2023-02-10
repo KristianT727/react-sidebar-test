@@ -1,5 +1,9 @@
-function CompanyHeader() {
-    return <></>;
-}
+import "./CompanyHeader.css";
 
-export default CompanyHeader;
+export const CompanyHeader = () => {
+    return (
+        <>
+            <div className="header-title"></div>
+        </>
+    );
+};
