@@ -7,27 +7,27 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 export const SidebarData = [
     {
-        title: "Home",
+        title: "Beranda",
         icon: <HomeIcon />,
         link: "/home",
     },
     {
-        title: "Articles",
+        title: "Artikel",
         icon: <ArticleIcon />,
         link: "/articles",
     },
     {
-        title: "Events",
+        title: "Event",
         icon: <EventIcon />,
         link: "/events",
     },
     {
-        title: "Gallery",
+        title: "Galeri",
         icon: <CollectionsIcon />,
         link: "/gallery",
     },
     {
-        title: "Our Clients",
+        title: "Klien Kami",
         icon: <PersonIcon />,
         link: "/clients",
     },

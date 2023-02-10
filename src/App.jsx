@@ -1,6 +1,7 @@
 import "./App.css";
 import Sidebar from "./Components/Sidebar";
 import { Route, Routes } from "react-router-dom";
+import { CompanyHeader } from "./Components/Others";
 
 import { routes } from "./routes";
 
@@ -20,6 +21,7 @@ function App() {
                     <Sidebar />
                 </div>
                 <div className="content">
+                    <CompanyHeader />
                     <Routes>{getRoutes(routes)}</Routes>
                 </div>
             </div>

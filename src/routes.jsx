@@ -31,10 +31,11 @@ export const routes = [
         link: "/clients",
         component: <Pages.Clients />,
     },
-    // {
-    //     title: "Login",
-    //     link: "/login",
-    // },
+    {
+        title: "Contact",
+        link: "/contact",
+        component: <Pages.Contact />,
+    },
     {
         title: "Not Found",
         link: "*",

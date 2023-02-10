@@ -5,33 +5,36 @@ import { CompanyHeaderNavbarData } from "./CompanyHeaderNavbarData";
 export const CompanyHeader = () => {
     const navigate = useNavigate();
     return (
-        <>
-            <div className={style.headerTitle}>
-                <div className={style.brandNameContainer}>
-                    <h1>MOTOR CLUB</h1>
-                    <p style={{ color: "#666" }}>
-                        The official website of MOTOR CLUB motor club.
-                    </p>
-                </div>
-                <hr />
-                <div className={style.brandNavbarContainer}>
-                    <ul>
-                        {CompanyHeaderNavbarData.map((val, key) => {
-                            return (
-                                <li
-                                    key={key}
-                                    onClick={() => {
-                                        navigate(val.link);
-                                    }}
-                                >
-                                    {val.title}
-                                </li>
-                            );
-                        })}
-                    </ul>
-                </div>
-                <hr />
+        <div className={style.headerTitle}>
+            <div className={style.brandNameContainer}>
+                <h1>MOTOR CLUB</h1>
+                <p style={{ color: "#666" }}>
+                    The official website of MOTOR CLUB motor club.
+                </p>
             </div>
-        </>
+            <hr />
+            <div className={style.brandNavbarContainer}>
+                <ul>
+                    {CompanyHeaderNavbarData.map((val, key) => {
+                        return (
+                            <li
+                                key={key}
+                                className={
+                                    window.location.pathname == val.link
+                                        ? style.active
+                                        : ""
+                                }
+                                onClick={() => {
+                                    navigate(val.link);
+                                }}
+                            >
+                                {val.title}
+                            </li>
+                        );
+                    })}
+                </ul>
+            </div>
+            <hr />
+        </div>
     );
 };

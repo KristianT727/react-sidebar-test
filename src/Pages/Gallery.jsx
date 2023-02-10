@@ -1,5 +1,4 @@
 import GalleryComponent from "../Components/GalleryComponent";
-import { CompanyHeader } from "../Components/Others";
 
 export const Gallery = () => {
     const galleryImages = [
@@ -25,7 +24,6 @@ export const Gallery = () => {
 
     return (
         <>
-            <CompanyHeader />
             <GalleryComponent galleryImages={galleryImages} />
         </>
     );
