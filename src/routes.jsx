@@ -37,6 +37,11 @@ export const routes = [
         component: <Pages.Contact />,
     },
     {
+        title: "Tentang Kami",
+        link: "/about-us",
+        component: <Pages.AboutUs />,
+    },
+    {
         title: "Not Found",
         link: "*",
         component: <Pages.Homepage />,

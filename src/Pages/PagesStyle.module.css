@@ -1,3 +1,23 @@
-h1 {
-    font-size: 200px;
+.page p {
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.page h1 {
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.page h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.page ul {
+    margin: 0;
+    margin-bottom: 15px;    
 }

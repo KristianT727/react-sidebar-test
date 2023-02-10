@@ -18,7 +18,7 @@ function App() {
     return (
         <div className="App">
             <Helmet>
-                <title>AAA</title>
+                <title>Motor Club</title>
             </Helmet>
             <div id="row2">
                 <div className="sidebar-wrapper">
