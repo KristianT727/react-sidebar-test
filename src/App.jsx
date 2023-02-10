@@ -1,11 +1,12 @@
 import "./App.css";
 import Sidebar from "./Components/Sidebar";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import { CompanyHeader } from "./Components/Others";
 import { Helmet } from "react-helmet-async";
 import { Footer } from "./Components/Footer";
 
 import { routes } from "./routes";
+import { useEffect, useState } from "react";
 
 function App() {
     const getRoutes = (routes) => {
@@ -16,6 +17,17 @@ function App() {
         });
     };
 
+    const location = useLocation();
+    const [bgImg, setBg] = useState("");
+
+    useEffect(() => {
+        if (location.pathname === "/home") {
+            setBg("/GalleryImages/img1.png");
+        } else {
+            setBg("");
+        }
+    });
+
     return (
         <div className="App">
             <Helmet>
@@ -25,7 +37,10 @@ function App() {
                 <div className="sidebar-wrapper">
                     <Sidebar />
                 </div>
-                <div className="content-wrapper">
+                <div
+                    className="content-wrapper"
+                    style={{ backgroundImage: `url(${bgImg})` }}
+                >
                     <div className="content">
                         <CompanyHeader />
                         <Routes>{getRoutes(routes)}</Routes>

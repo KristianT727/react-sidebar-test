@@ -8,9 +8,7 @@ export const CompanyHeader = () => {
         <div className={style.headerTitle}>
             <div className={style.brandNameContainer}>
                 <h1>MOTOR CLUB</h1>
-                <p style={{ color: "#666" }}>
-                    The official website of MOTOR CLUB motor club.
-                </p>
+                <p>The official website of MOTOR CLUB motor club.</p>
             </div>
             <hr />
             <div className={style.brandNavbarContainer}>

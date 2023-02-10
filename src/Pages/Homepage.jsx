@@ -7,7 +7,7 @@ export const Homepage = () => {
             <Helmet>
                 <title>Motor Club</title>
             </Helmet>
-            <div className="page">
+            <div className={style.page}>
                 <section>
                     <h1>
                         Selamat Datang di website resmi club motor MOTOR CLUB

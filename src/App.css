@@ -19,6 +19,7 @@ body {
 .App {
   height: 100vh;
   /* width: 100%; */
+  background-color: var(--dark-gray);
 }
 
 .App #row2 {
@@ -32,11 +33,16 @@ body {
   padding: 0;
   width: 100%;
   overflow: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .App .content{
   width: auto;
-  min-height: 100%;
+  min-height: 70%;
   margin: 0;
   padding: 20px 40px;
+  backdrop-filter: blur(2px);
+  background-color: rgba(0,0,0, 0.6);
 }
