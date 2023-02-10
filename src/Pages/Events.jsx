@@ -1,3 +1,10 @@
+import { CompanyHeader } from "../Components/Others";
+
 export const Events = () => {
-    return <div>Events</div>;
+    return (
+        <>
+            <CompanyHeader />
+            Events
+        </>
+    );
 };

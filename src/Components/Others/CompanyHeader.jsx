@@ -1,6 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import style from "./CompanyHeader.module.css";
+import { CompanyHeaderNavbarData } from "./CompanyHeaderNavbarData";
 
 export const CompanyHeader = () => {
+    const navigate = useNavigate();
     return (
         <>
             <div className={style.headerTitle}>
@@ -13,11 +16,18 @@ export const CompanyHeader = () => {
                 <hr />
                 <div className={style.brandNavbarContainer}>
                     <ul>
-                        <li>Profile</li>
-                        <li>Visi dan Misi</li>
-                        <li>Produk Kami</li>
-                        <li>Kontak Kami</li>
-                        <li>About Us</li>
+                        {CompanyHeaderNavbarData.map((val, key) => {
+                            return (
+                                <li
+                                    key={key}
+                                    onClick={() => {
+                                        navigate(val.link);
+                                    }}
+                                >
+                                    {val.title}
+                                </li>
+                            );
+                        })}
                     </ul>
                 </div>
                 <hr />

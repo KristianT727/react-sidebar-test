@@ -1,4 +1,5 @@
 import GalleryComponent from "../Components/GalleryComponent";
+import { CompanyHeader } from "../Components/Others";
 
 export const Gallery = () => {
     const galleryImages = [
@@ -23,8 +24,9 @@ export const Gallery = () => {
     ];
 
     return (
-        <div>
+        <>
+            <CompanyHeader />
             <GalleryComponent galleryImages={galleryImages} />
-        </div>
+        </>
     );
 };
