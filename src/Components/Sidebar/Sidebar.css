@@ -3,6 +3,7 @@
   width: 200px;
   background-color: var(--dark-gray);
   overflow: auto;
+  transition: width 0.5s;
 }
 
 .logo-container {
@@ -64,4 +65,19 @@
 
 .SidebarList #active {
   font-weight: bold;
+}
+
+@media screen and (max-width: 990px) {
+
+  .logo-wrapper {
+    display: none;
+  }
+
+  .SidebarList .item #title {
+    display: none;
+  }
+
+  .Sidebar {
+    width: 50px;
+  }
 }
