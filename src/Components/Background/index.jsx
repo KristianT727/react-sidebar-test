@@ -1,1 +1,0 @@
-export { BackgroundChange } from "./BackgroundChange";

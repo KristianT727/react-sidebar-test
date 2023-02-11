@@ -18,14 +18,13 @@ function App() {
     };
 
     const location = useLocation();
-    const [bgImg, setBg] = useState("");
+    const [bgImg, setBg] = useState("/GalleryImages/img1.png");
 
     useEffect(() => {
-        if (location.pathname === "/home") {
-            setBg("/GalleryImages/img1.png");
-        } else {
-            setBg("");
-        }
+        const found = routes.find((obj) => {
+            return obj.link === location.pathname;
+        });
+        found ? setBg(found.bgImg) : setBg("");
     });
 
     return (

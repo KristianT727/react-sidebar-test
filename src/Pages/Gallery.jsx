@@ -33,9 +33,9 @@ export const Gallery = () => {
                 <section>
                     <h1>Galeri</h1>
                     <p>Kumpulan foto-foto dari club MOTOR CLUB</p>
-                    <GalleryComponent galleryImages={galleryImages} />
                 </section>
             </div>
+            <GalleryComponent galleryImages={galleryImages} />
         </>
     );
 };
