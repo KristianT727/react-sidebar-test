@@ -42,6 +42,7 @@ function Sidebar() {
                             >
                                 <div id="icon">{val.icon}</div>
                                 <div id="title">{val.title}</div>
+                                <span className="toolTip">{val.title}</span>
                             </li>
                         );
                     })}

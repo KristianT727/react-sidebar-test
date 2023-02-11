@@ -4,6 +4,7 @@
   background-color: var(--dark-gray);
   overflow: auto;
   transition: width 0.5s;
+  z-index: 2;
 }
 
 .logo-container {
@@ -67,6 +68,20 @@
   font-weight: bold;
 }
 
+.SidebarList .item .toolTip {
+  opacity: 0;
+  position: relative;
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  z-index: 0;
+  background-color: black;
+  padding: 4px 10px;
+  border-radius: 10px;
+  white-space: nowrap;
+  transition: 0.2s;
+}
+
 @media screen and (max-width: 990px) {
 
   .logo-wrapper {
@@ -79,5 +94,15 @@
 
   .Sidebar {
     width: 50px;
+    overflow: visible;
+  }
+
+  .SidebarList .item {
+    position: relative;
+  }
+
+  .SidebarList .item:hover .toolTip {
+    opacity: 100%;
+    left: 40px;
   }
 }
