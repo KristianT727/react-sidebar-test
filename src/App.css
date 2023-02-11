@@ -2,6 +2,7 @@
   --web-ui-font : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   --dark-gray : #2c2d3a;
   --footer-bg : #202124;
+  --portrait-transition : 990px;
 }
 
 #root {
