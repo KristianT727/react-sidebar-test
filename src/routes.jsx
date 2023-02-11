@@ -50,6 +50,12 @@ export const routes = [
         bgImg: "/GalleryImages/img3.png",
     },
     {
+        title: "Produk Kami",
+        link: "/product",
+        component: <Pages.Product />,
+        bgImg: "/GalleryImages/img4.png",
+    },
+    {
         title: "Not Found",
         link: "*",
         component: <Pages.Homepage />,

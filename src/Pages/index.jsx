@@ -5,3 +5,4 @@ export { Gallery } from "./Gallery";
 export { Homepage } from "./Homepage";
 export { Contact } from "./Contact";
 export { AboutUs } from "./AboutUs";
+export { Product } from "./Product";
