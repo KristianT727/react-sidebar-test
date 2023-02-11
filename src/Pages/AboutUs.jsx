@@ -26,6 +26,28 @@ export const AboutUs = () => {
                         berbagi minat yang sama untuk bertemu.
                     </p>
                 </section>
+                <section
+                    style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        flexDirection: "column",
+                    }}
+                >
+                    <img
+                        src="/company-logo.png"
+                        alt=""
+                        style={{ width: 200 }}
+                    />
+                    <p>Logo klub</p>
+                </section>
+                <section>
+                    <p>
+                        Logo dari klub ini berupa dua piston yang melambangkan
+                        dua piston yang dapat dijumpai pada mayoritas dari motor
+                        bermesin kapasitas tinggi, atau "moge".
+                    </p>
+                </section>
             </div>
         </>
     );

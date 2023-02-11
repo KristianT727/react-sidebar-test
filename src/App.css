@@ -42,7 +42,7 @@ body {
 
 .App .content{
   width: auto;
-  min-height: 70%;
+  /* min-height: 70%; */
   margin: 0;
   padding: 0;
   /* backdrop-filter: blur(2px); */
