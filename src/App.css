@@ -36,6 +36,8 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 }
 
 .App .content{
@@ -43,6 +45,7 @@ body {
   min-height: 70%;
   margin: 0;
   padding: 20px 40px;
-  backdrop-filter: blur(2px);
+  /* backdrop-filter: blur(2px); */
   background-color: rgba(0,0,0, 0.8);
+  flex: 1;
 }

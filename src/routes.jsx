@@ -41,13 +41,13 @@ export const routes = [
         title: "Contact",
         link: "/contact",
         component: <Pages.Contact />,
-        bgImg: "/GalleryImages/img1.png",
+        bgImg: "/GalleryImages/img2.png",
     },
     {
         title: "Tentang Kami",
         link: "/about-us",
         component: <Pages.AboutUs />,
-        bgImg: "/GalleryImages/img1.png",
+        bgImg: "/GalleryImages/img3.png",
     },
     {
         title: "Not Found",

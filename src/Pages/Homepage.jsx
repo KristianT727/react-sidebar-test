@@ -10,8 +10,9 @@ export const Homepage = () => {
             <div className={style.page}>
                 <section>
                     <h1>
-                        Selamat Datang di website resmi club motor MOTOR CLUB
+                        Selamat Datang di website resmi club motor MOTOR CLUB!
                     </h1>
+                    <p>Mari bersama kita bersatu dalam motoring.</p>
                 </section>
             </div>
         </>
