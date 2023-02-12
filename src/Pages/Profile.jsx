@@ -16,7 +16,7 @@ export const Profile = () => {
                         motor adalah salah satu cara untuk hidup dengan gaya.
                     </p>
                 </section>
-                <section>
+                <section id="visimisi">
                     <h1>Visi dan Misi klub</h1>
                     <p>Visi</p>
                     <ul>

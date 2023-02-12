@@ -19,6 +19,7 @@ export const Contact = () => {
                         <li>WhatsApp : +62-888-0999-0999</li>
                         <li>Instagram : @motor.club.888</li>
                         <li>Twitter : @motor.club.888</li>
+                        <li>Email : motor_club888@gmail.com</li>
                     </ul>
                 </section>
             </div>

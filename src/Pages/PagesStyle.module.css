@@ -2,6 +2,9 @@
     margin: 20px 140px;
 }
 
+.page section{
+    padding-bottom: 20px;
+}
 .page p {
     margin: 0;
     margin-bottom: 15px;
