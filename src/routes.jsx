@@ -14,17 +14,23 @@ export const routes = [
         bgImg: "/GalleryImages/img1.png",
     },
     {
-        title: "Articles",
-        link: "/articles",
-        component: <Pages.Articles />,
-        bgImg: "/GalleryImages/img1.png",
+        title: "Profile",
+        link: "/profile",
+        component: <Pages.Profile />,
+        bgImg: "/GalleryImages/img5.png",
     },
-    {
-        title: "Events",
-        link: "/events",
-        component: <Pages.Events />,
-        bgImg: "/GalleryImages/img1.png",
-    },
+    // {
+    //     title: "Articles",
+    //     link: "/articles",
+    //     component: <Pages.Articles />,
+    //     bgImg: "/GalleryImages/img1.png",
+    // },
+    // {
+    //     title: "Events",
+    //     link: "/events",
+    //     component: <Pages.Events />,
+    //     bgImg: "/GalleryImages/img1.png",
+    // },
     {
         title: "Gallery",
         link: "/gallery",
@@ -58,7 +64,7 @@ export const routes = [
     {
         title: "Not Found",
         link: "*",
-        component: <Pages.Homepage />,
+        component: <Pages.NotFound />,
         bgImg: "/GalleryImages/img1.png",
     },
 ];

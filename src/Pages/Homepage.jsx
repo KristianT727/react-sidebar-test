@@ -13,6 +13,10 @@ export const Homepage = () => {
                         Selamat Datang di website resmi club motor MOTOR CLUB!
                     </h1>
                     <p>Mari bersama kita bersatu dalam motoring.</p>
+                    <p>
+                        Mulailah bereksplorasi dengan menekan tombol-tombol pada
+                        tampilan website.
+                    </p>
                 </section>
             </div>
         </>
