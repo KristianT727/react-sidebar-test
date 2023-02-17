@@ -12,7 +12,11 @@ export const ClientCard = ({ name, imgUrl, desc, link }) => {
         >
             <div className={style.clientItem}>
                 <div className={style.imageContainer}>
-                    <img src={imgUrl} alt="" id={style.image} />
+                    <img
+                        src={import.meta.env.BASE_URL + imgUrl}
+                        alt=""
+                        id={style.image}
+                    />
                 </div>
                 <div className={style.infoContainer}>
                     <div className={style.nameContainer}>{name}</div>

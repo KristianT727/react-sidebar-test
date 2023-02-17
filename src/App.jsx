@@ -12,7 +12,11 @@ function App() {
     const getRoutes = (routes) => {
         return routes.map((prop, key) => {
             return (
-                <Route path={prop.link} element={prop.component} key={key} />
+                <Route
+                    path={import.meta.env.BASE_URL + prop.link}
+                    element={prop.component}
+                    key={key}
+                />
             );
         });
     };
@@ -22,7 +26,7 @@ function App() {
 
     useEffect(() => {
         const found = routes.find((obj) => {
-            return obj.link === location.pathname;
+            return import.meta.env.BASE_URL + obj.link === location.pathname;
         });
         found ? setBg(found.bgImg) : setBg("");
     });
