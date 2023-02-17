@@ -9,6 +9,12 @@ export const routes = [
     },
     {
         title: "Home",
+        link: "",
+        component: <Pages.Homepage />,
+        bgImg: "/GalleryImages/img1.png",
+    },
+    {
+        title: "Home",
         link: "/home",
         component: <Pages.Homepage />,
         bgImg: "/GalleryImages/img1.png",

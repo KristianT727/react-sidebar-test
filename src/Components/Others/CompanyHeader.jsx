@@ -23,9 +23,7 @@ export const CompanyHeader = () => {
                                         : ""
                                 }
                                 onClick={() => {
-                                    navigate(
-                                        import.meta.env.BASE_URL + val.link
-                                    );
+                                    navigate(val.link);
                                 }}
                             >
                                 {val.title}

@@ -37,9 +37,7 @@ function Sidebar() {
                                         : ""
                                 }
                                 onClick={() => {
-                                    navigate(
-                                        import.meta.env.BASE_URL + val.link
-                                    );
+                                    navigate(val.link);
                                 }}
                             >
                                 <div id="icon">{val.icon}</div>

@@ -12,25 +12,19 @@ function App() {
     const getRoutes = (routes) => {
         return routes.map((prop, key) => {
             return (
-                <Route
-                    path={import.meta.env.BASE_URL + prop.link}
-                    element={prop.component}
-                    key={key}
-                />
+                <Route path={prop.link} element={prop.component} key={key} />
             );
         });
     };
 
     const location = useLocation();
-    const [bgImg, setBg] = useState(
-        `${import.meta.env.BASE_URL}/GalleryImages/img1.png`
-    );
+    const [bgImg, setBg] = useState(`/GalleryImages/img1.png`);
 
     useEffect(() => {
         const found = routes.find((obj) => {
-            return import.meta.env.BASE_URL + obj.link === location.pathname;
+            return obj.link === location.pathname;
         });
-        found ? setBg(import.meta.env.BASE_URL + found.bgImg) : setBg("");
+        found ? setBg(found.bgImg) : setBg("");
     });
 
     return (

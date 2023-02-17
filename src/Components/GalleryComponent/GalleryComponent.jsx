@@ -69,10 +69,7 @@ const GalleryComponent = ({ galleryImages }) => {
                                 key={index}
                                 onClick={() => handleOpenModal(index)}
                             >
-                                <img
-                                    src={import.meta.env.BASE_URL + slide.img}
-                                    alt=""
-                                />
+                                <img src={slide.img} alt="" />
                             </div>
                         );
                     })}

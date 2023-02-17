@@ -35,7 +35,7 @@ export const AboutUs = () => {
                     }}
                 >
                     <img
-                        src={`${import.meta.env.BASE_URL}/company-logo.png`}
+                        src={`/company-logo.png`}
                         alt=""
                         style={{ width: 200 }}
                     />

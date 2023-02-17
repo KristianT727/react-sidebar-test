@@ -15,9 +15,7 @@ export const Footer = () => {
                                 <li
                                     key={key}
                                     onClick={() => {
-                                        navigate(
-                                            import.meta.env.BASE_URL + val.link
-                                        );
+                                        navigate(val.link);
                                     }}
                                 >
                                     {val.title}
@@ -33,9 +31,7 @@ export const Footer = () => {
                                 <li
                                     key={key}
                                     onClick={() => {
-                                        navigate(
-                                            import.meta.env.BASE_URL + val.link
-                                        );
+                                        navigate(val.link);
                                     }}
                                 >
                                     {val.title}

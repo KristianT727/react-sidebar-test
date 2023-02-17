@@ -19,10 +19,7 @@ export const Homepage = () => {
                             paddingBottom: "20px",
                         }}
                     >
-                        <img
-                            src={`${import.meta.env.BASE_URL}/company-logo.png`}
-                            alt="logo"
-                        />
+                        <img src={`/company-logo.png`} alt="logo" />
                     </div>
                     <p>Mari bersama kita bersatu dalam motoring.</p>
                     <p>
