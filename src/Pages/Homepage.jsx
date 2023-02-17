@@ -2,7 +2,6 @@ import style from "./PagesStyle.module.css";
 import { Helmet } from "react-helmet-async";
 
 export const Homepage = () => {
-    console.log(import.meta.env);
     return (
         <>
             <Helmet>
